@@ -4,8 +4,8 @@ var router = global.router;
 var router = require("./users");
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.status(200).send("nguyen song ngan api");
+router.get("/", function (req, res, next) {
+  res.status(200).send("đây là nguyen song ngan api");
 });
 
 module.exports = router;
